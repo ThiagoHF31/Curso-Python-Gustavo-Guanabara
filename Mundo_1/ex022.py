@@ -1,0 +1,12 @@
+nome = input('Qual seu nome completo:')
+print(nome.upper())
+print(nome.lower())
+quantidade = (nome.split())
+primeiro = (len(quantidade[0]))
+segundo = (len(nome))
+s = nome.replace(' ', '')
+variavel = len(s)
+print('Seu primiro nome tem {} letras'.format(primeiro))
+print('Seu nome ao todo tem {} letras'.format(segundo))
+print('Seu nome sem os espaçamentos tem',variavel,'letras')
+

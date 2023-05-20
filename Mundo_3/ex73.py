@@ -1,0 +1,12 @@
+times = ('Palmeiras', 'Fluminense', 'Flamengo', 'corinthias', 'internacional', 'aleticoMG', 'Santos', 'AmericaMG')
+times1 = ('Goias', 'São paulo', 'Fortaleza', 'Bota fogo', 'Barcelona')
+soma = times + times1
+print('\033[34m==\033[m'*40)
+print(f'Os primeiros 5 colocados são {soma[0:5]}')
+print('\033[34m==\033[m'*40)
+print(f'Os ultimos 4 colocados são {soma[-4:]}')
+print('\033[34m==\033[m'*40)
+print(sorted(soma))
+print('\033[34m==\033[m'*40)
+print(f'O flamengo ta na posição {soma.index("Flamengo")+1}')
+print('\033[34m==\033[m'*40)
